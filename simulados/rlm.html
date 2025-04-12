@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulado RLM - PF CESPE</title>
+  <link rel="stylesheet" href="../assets/css/estilo.css">
+</head>
+<body>
+  <h1>Simulado de Raciocínio Lógico - PF (CESPE)</h1>
+  <form id="quizForm">
+    <div class="question">
+      <p>1. De quantas maneiras podemos organizar as letras da palavra "CARRO"?</p>
+      <label><input type="radio" name="q1" value="C"> 60</label>
+      <label><input type="radio" name="q1" value="E"> 120</label>
+    </div>
+    <div class="question">
+      <p>2. Quantos comitês de 3 pessoas podem ser formados a partir de um grupo de 7?</p>
+      <label><input type="radio" name="q2" value="C"> 35</label>
+      <label><input type="radio" name="q2" value="E"> 210</label>
+    </div>
+    <div class="question">
+      <p>3. Um diretor deseja formar uma comissão de 3 pessoas dentre 5 candidatos, levando em conta a ordem. Quantas formações diferentes são possíveis?</p>
+      <label><input type="radio" name="q3" value="C"> 60</label>
+      <label><input type="radio" name="q3" value="E"> 10</label>
+    </div>
+    <div class="question">
+      <p>4. Se Pedro é policial federal, então ele passou no concurso. Pedro não passou no concurso. Logo, Pedro não é policial federal.</p>
+      <label><input type="radio" name="q4" value="C"> Certo</label>
+      <label><input type="radio" name="q4" value="E"> Errado</label>
+    </div>
+    <div class="question">
+      <p>5. Todos os peritos são servidores públicos. Nenhum servidor público é terceirizado. Logo, nenhum perito é terceirizado.</p>
+      <label><input type="radio" name="q5" value="C"> Certo</label>
+      <label><input type="radio" name="q5" value="E"> Errado</label>
+    </div>
+    <div class="question">
+      <p>6. Se estudo ou faço simulados, então aprendo. Não aprendi. Logo, não estudei e não fiz simulados.</p>
+      <label><input type="radio" name="q6" value="C"> Certo</label>
+      <label><input type="radio" name="q6" value="E"> Errado</label>
+    </div>
+    <div class="question">
+      <p>7. De quantas formas distintas 4 livros diferentes podem ser organizados em uma estante?</p>
+      <label><input type="radio" name="q7" value="C"> 24</label>
+      <label><input type="radio" name="q7" value="E"> 16</label>
+    </div>
+    <div class="question">
+      <p>8. Um time de futebol deve escalar 11 jogadores entre 16 disponíveis. Quantas formações diferentes podem ser feitas?</p>
+      <label><input type="radio" name="q8" value="C"> 4368</label>
+      <label><input type="radio" name="q8" value="E"> 8008</label>
+    </div>
+    <div class="question">
+      <p>9. Se estudo, então passo. Passei. Logo, estudei.</p>
+      <label><input type="radio" name="q9" value="C"> Errado</label>
+      <label><input type="radio" name="q9" value="E"> Certo</label>
+    </div>
+    <div class="question">
+      <p>10. Em uma reunião, todos apertam as mãos uns dos outros uma única vez. Se há 6 pessoas, quantos apertos de mão ocorreram?</p>
+      <label><input type="radio" name="q10" value="C"> 15</label>
+      <label><input type="radio" name="q10" value="E"> 30</label>
+    </div>
+    <div class="question">
+      <p>11. Se Maria não treina, então não corre. Maria corre. Logo, Maria treinou.</p>
+      <label><input type="radio" name="q11" value="C"> Certo</label>
+      <label><input type="radio" name="q11" value="E"> Errado</label>
+    </div>
+    <button type="button" onclick="verificarRespostas()">Conferir Resultado</button>
+    <div id="resultado"></div>
+  </form>
+  <script src="../assets/js/rlm.js"></script>
+</body>
+</html>
